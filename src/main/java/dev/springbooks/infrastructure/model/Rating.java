@@ -1,4 +1,4 @@
-package dev.danvega.springbooks.model;
+package dev.springbooks.infrastructure.model;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 

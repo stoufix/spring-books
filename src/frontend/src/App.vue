@@ -14,7 +14,6 @@ const ALL_BOOKS_QUERY = gql`
           }
           author {
             firstName
-            lastName
           }
         }
       }
@@ -33,7 +32,10 @@ watchEffect(() => {
   <p v-if="error">{{ error }}</p>
   <p v-if="loading">Loading...</p>
   <ul v-else>
-    <li v-for="book in books" :key="book.id">{{ book.title }}</li>
+    <li v-for="book in books" :key="book.id">
+    <br>{{ book.rating }}, {{ book.title }} ,  {{ book.author }}
+    </li>
+
   </ul>
 </template>
 

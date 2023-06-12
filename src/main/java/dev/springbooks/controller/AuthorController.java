@@ -1,7 +1,7 @@
-package dev.danvega.springbooks.controller;
+package dev.springbooks.controller;
 
-import dev.danvega.springbooks.model.Author;
-import dev.danvega.springbooks.repository.AuthorRepository;
+import dev.springbooks.infrastructure.model.Author;
+import dev.springbooks.infrastructure.repository.AuthorRepository;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
 import org.springframework.stereotype.Controller;
 

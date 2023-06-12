@@ -1,4 +1,4 @@
-package dev.danvega.springbooks;
+package dev.springbooks;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

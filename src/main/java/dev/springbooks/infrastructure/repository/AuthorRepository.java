@@ -1,6 +1,6 @@
-package dev.danvega.springbooks.repository;
+package dev.springbooks.infrastructure.repository;
 
-import dev.danvega.springbooks.model.Author;
+import dev.springbooks.infrastructure.model.Author;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
@@ -32,8 +32,8 @@ public class AuthorRepository {
 
     @PostConstruct
     private void init() {
-        authors.add(new Author(1,"Josh","Long"));
-        authors.add(new Author(2,"Mark","Heckler"));
-        authors.add(new Author(3,"Greg","Turnquist"));
+        authors.add(new Author(1, "Josh", "Long"));
+        authors.add(new Author(2, "Mark", "Heckler"));
+        authors.add(new Author(3, "Greg", "Turnquist"));
     }
 }

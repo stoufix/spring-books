@@ -1,4 +1,4 @@
-package dev.danvega.springbooks.model;
+package dev.springbooks.infrastructure.model;
 
 public record Author(Integer id, String firstName, String lastName) {
 

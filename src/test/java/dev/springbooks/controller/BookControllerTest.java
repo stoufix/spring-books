@@ -1,9 +1,9 @@
-package dev.danvega.springbooks.controller;
+package dev.springbooks.controller;
 
-import dev.danvega.springbooks.model.Author;
-import dev.danvega.springbooks.model.Book;
-import dev.danvega.springbooks.model.Rating;
-import dev.danvega.springbooks.repository.BookRepository;
+import dev.springbooks.infrastructure.model.Author;
+import dev.springbooks.infrastructure.model.Book;
+import dev.springbooks.infrastructure.model.Rating;
+import dev.springbooks.infrastructure.repository.BookRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
